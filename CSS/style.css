@@ -1,0 +1,14 @@
+/* Custom-css  */
+.input-color{
+    background-color: 0 solid #ffff;
+    border-radius: 5px;
+    text-decoration-color: #ffffff;
+}
+.div-form{
+    width: 542px;
+    height: 750px;
+    background-color: #F8F8F8;
+}
+h1{
+    color: #31A5AC;
+}
