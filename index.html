@@ -17,39 +17,46 @@
 
 </head>
 
-<body>
+<body class="body-color">
     <header>
-        <h1 class="text-center fs-1 fw-bold mx-5 my-5">Income Cost Calculation</h1>
+        <h1 class="text-center h1-font-size fw-bold mx-5 my-5">Income Cost Calculation</h1>
     </header>
     <main class="container">
         <section class="row">
             <div class="rounded-3 col-sm-12 col-md-6">
                 <img class="img-fluid rounded-3" src="Photos/Picture-1.jpg" alt="">
             </div>
-            <div class="col-md-1"></div>
             <br>
-            <div class="div-form form-all-body rounded-3 col-sm-12 col-md-5">
+            <div class="div-part col-sm-12 col-md-6">
                 <div class="text-center pt-4">
-                    <h2 class="text-center">Income</h2>
-                    <h4>Income: <input id="totalIncome" class="input-color" placeholder="0 Taka" type="text"></h4>
+                    <h2 class="text-center">Your Income</h2>
+                    <h4>Income: <input id="totalIncome" class="input-color" placeholder="Enter Your Earn Amount"
+                            type="text"></h4>
                     <br>
-                    <h2 class="text-center">Expenses</h2>
-                    <h4>Food: <input id="foodCost" class="input-color" placeholder="0 Taka" type="text"></h4>
-                    <h4>Rent: <input id="rentCost" class="input-color" placeholder="0 Taka" type="text"></h4>
-                    <h4>Clothes: <input id="clothCost" class="input-color" placeholder="0 Taka" type="text"></h4>
+                    <h2 class="text-center">Expenses List</h2>
+                    <h4>Food: <input id="foodCost" class="input-color" placeholder="Food Cost Amount" type="text">
+                    </h4>
+                    <h4>Rent: <input id="rentCost" class="input-color" placeholder="Rent Cost Amount" type="text"></h4>
+                    <h4>Clothes: <input id="clothCost" class="input-color" placeholder="Clothes Cost Amount"
+                            type="text"></h4>
+                    <br>
                     <br>
                     <button id="totalCalculate" class="fs-3 btn btn-primary btn-sm" type="submit">Calculate</button>
                     <br>
                     <br>
-                    <h3>Total Expenses: <span id="totalExpense" class="">0</span> <span class="text-muted"> Taka</span>
+                    <h3>Total Expenses: <span id="totalExpense" class="amount-color">0</span> <span class="text-muted">
+                            Taka</span>
                     </h3>
-                    <h3>Balance: <span id="totalBalance">0</span> <span class="text-muted"> Taka</span></h3>
+                    <h3>Balance: <span id="totalBalance" class="amount-color">0</span> <span class="text-muted">
+                            Taka</span></h3>
                     <br>
-                    <br>
-                    <h4>Save: <input id="persentInput" class="input-color" placeholder="00 %" type="text"> % <button
-                            id="saveButton" class="  fs-3 btn btn-primary btn-sm">Save </button></h4>
-                    <h3>Saving Amount: <span id="savingAmount">0</span><span class="text-muted"> Taka</span></h3>
-                    <h3>Remaining Balance: <span id="remainingBalance">0</span> <span class="text-muted">
+                    <h4>Save: <input id="percentInput" class="input-color" placeholder="Percentage Of Amount"
+                            type="text"> % <button id="saveButton" class="  fs-3 btn btn-primary btn-sm">Save </button>
+                    </h4>
+                    <h3>Saving Amount: <span id="savingAmount" class="amount-color">0</span><span class="text-muted">
+                            Taka</span></h3>
+                    <h3>Remaining Balance: <span id="remainingBalance" class="amount-color">0</span> <span
+                            class="text-muted">
                             Taka</span>
                     </h3>
                 </div>

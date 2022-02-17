@@ -27,13 +27,13 @@ document.getElementById("totalCalculate").addEventListener("click", function () 
 document.getElementById('saveButton').addEventListener('click', function () {
     const incomeValue = document.getElementById('totalIncome').value;
     const incomeValueInteger = parseInt(incomeValue);
-    const parsentInputValue = document.getElementById('persentInput').value;
-    const paesentInputData = parseInt(parsentInputValue);
-    const persentValue = incomeValueInteger * paesentInputData;
-    const finalParsent = persentValue / 100;
+    const percentInputValue = document.getElementById('percentInput').value;
+    const peecentInputData = parseInt(percentInputValue);
+    const percentValue = incomeValueInteger * peecentInputData;
+    const finalPercent = percentValue / 100;
     const savingAmountValue = document.getElementById('savingAmount');
-    savingAmountValue.innerText = finalParsent;
+    savingAmountValue.innerText = finalPercent;
     const remainingBalanceTotal = document.getElementById('remainingBalance');
-    remainingBalanceTotal.innerText = allIntegerValue() - finalParsent;
+    remainingBalanceTotal.innerText = allIntegerValue() - finalPercent;
 
 })
